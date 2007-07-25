@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Alien::IE7;
+
+my $dir = shift || './ie7';
+print "Installing IE7 to $dir\n";
+Alien::IE7->install( $dir );
+print "... done\n";
+
+=head1 NAME
+
+ie7-install - IE7 javascript library installation
+
+=head1 SYNOPSIS
+
+  ie7-install destdir
+
+=head1 DESCRIPTION
+
+Installs the IE7 javascript compability library, using C<Alien::IE7>.
+
+=head1 AUTHOR
+
+Graham TerMarsch (cpan@howlingfrog.com)
+
+=head1 LICENSE
+
+Copyright (C) 2007, Graham TerMarsch.  All rights reserved.
+
+This is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+=head1 SEE ALSO
+
+L<Alien::IE7>.
+
+=cut

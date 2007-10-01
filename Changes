@@ -1,5 +1,7 @@
 Revision history for Perl extension Alien::IE7.
 
+    - added POD coverage tests
+
 0.9.1   Sun Sep 30 13:24 PDT 2007
     - added POD docs to Alien::IE7
     - added "--quiet" command line argument to "ie7-install"

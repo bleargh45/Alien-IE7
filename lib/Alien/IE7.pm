@@ -8,7 +8,6 @@ use warnings;
 use Carp;
 use File::Copy qw(copy);
 use File::Path qw(mkpath);
-use File::Find qw(find);
 use File::Basename qw(dirname);
 
 ###############################################################################

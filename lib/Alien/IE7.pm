@@ -55,9 +55,8 @@ sub to_blib {
         sub {
             -f && do {
                 my $dstdir = $File::Find::dir;
-                $dstdir =~ s{^$path}{};
-                $dstdir =~ s{^/}{};
-                $blib{$File::Find::name} = File::Spec->catfile($dstdir, $_);
+                $dstdir =~ s{^$path/?}{};
+                $blib{$File::Find::name} = join('', $dstdir, $_);
             }
         },
         $path

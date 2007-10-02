@@ -3,10 +3,8 @@ package MY::Build;
 use strict;
 use warnings;
 use base qw(Module::Build);
-use File::Path qw(mkpath);
 use File::Copy qw(copy);
 use Archive::Zip qw(:ERROR_CODES);
-use Alien::IE7;
 
 sub ACTION_code {
     my $self = shift;
@@ -16,8 +14,7 @@ sub ACTION_code {
 }
 
 sub ie7_archive {
-    my $self = shift;
-    return join( '', $self->ie7_dir(), '.zip' );
+    return 'IE7_0_9.zip';
 }
 
 sub ie7_dir {

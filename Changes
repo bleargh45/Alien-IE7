@@ -4,6 +4,8 @@ Revision history for Perl extension Alien::IE7.
     - rewritten install routine
     - fixed build dependency issue on Archive::Zip; its a -build- requirement,
       not a -configuration- requirement
+    - added "passthrough" Makefile.PL; we -NEED- to have Module::Build
+      installed, auto-generated compatibility Makefile.PLs are insufficient
 
 0.9.1   Sun Sep 30 13:24 PDT 2007
     - added POD docs to Alien::IE7

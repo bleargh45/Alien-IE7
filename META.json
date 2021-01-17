@@ -1,0 +1,49 @@
+{
+   "abstract" : "installing and finding IE7 JS compatibility library",
+   "author" : [
+      "Graham TerMarsch (cpan@howlingfrog.com)"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4231",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Alien-IE7",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Archive::Zip" : "0",
+            "Test::Exception" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "v5.6.0"
+         }
+      }
+   },
+   "provides" : {
+      "Alien::IE7" : {
+         "file" : "lib/Alien/IE7.pm",
+         "version" : "v0.9.3"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v0.9.3",
+   "x_deprecated" : 1,
+   "x_serialization_backend" : "JSON::PP version 4.05"
+}

@@ -1,5 +1,5 @@
 ---
-abstract: 'installing and finding IE7 JS compatibility library'
+abstract: '(DEPRECATED) installing and finding IE7 JS compatibility library'
 author:
   - 'Graham TerMarsch (cpan@howlingfrog.com)'
 build_requires:
@@ -17,12 +17,12 @@ name: Alien-IE7
 provides:
   Alien::IE7:
     file: lib/Alien/IE7.pm
-    version: v0.9.3
+    version: v0.9.4
 requires:
   perl: v5.6.0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.9.3
+version: v0.9.4
 x_bugtracker:
   web: https://github.com/bleargh45/Alien-IE7/issues
 x_deprecated: 1
